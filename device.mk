@@ -21,3 +21,4 @@ TARGET_TEGRA_HEALTH ?= nobattery
 include device/nvidia/shield-common/shield.mk
 
 $(call inherit-product, device/nvidia/foster/device.mk)
+
