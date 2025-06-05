@@ -28,3 +28,4 @@ BOARD_KERNEL_CMDLINE    += sdhci_tegra.en_boot_part_access=1
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/nvidia/porg/releasetools
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
