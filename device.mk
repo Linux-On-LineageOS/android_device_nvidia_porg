@@ -22,3 +22,4 @@ include device/nvidia/shield-common/shield.mk
 
 $(call inherit-product, device/nvidia/foster/device.mk)
 
+$(call inherit-product, vendor/lindroid/lindroid.mk)
